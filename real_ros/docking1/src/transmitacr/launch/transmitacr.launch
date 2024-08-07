@@ -1,0 +1,18 @@
+<launch>
+ <arg name="argx" default="0"/>
+ <arg name="argy" default="0"/>
+ <arg name="argz" default="0.6"/>
+ <param name="x" value="$(arg argx)"/>
+ <param name="y" value="$(arg argy)"/>
+ <param name="z" value="$(arg argz)"/>
+ <arg name="arglx" default="0.03"/> 
+ <arg name="argly" default="0.03"/>
+ <arg name="arglz" default="0.50"/>
+ <param name="lx" value="$(arg arglx)"/>
+ <param name="ly" value="$(arg argly)"/>
+ <param name="lz" value="$(arg arglz)"/>
+ <node pkg="transmitacr" type="transmitacr_node" name="transmitacr_node" output="screen" >
+    <!-- Remap topics from those used in code to those on the ROS network -->
+ 
+ </node>
+</launch>

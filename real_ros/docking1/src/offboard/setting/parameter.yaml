@@ -1,0 +1,37 @@
+%YAML:1.0
+#velocity of fly alone circle trajectory
+XITA: 10 #10 degree/s
+R: 0.7 #ridial of circle m
+threshold_x: 0.3
+threshold_y: 0.3
+threshold_z: 0.2
+
+#end point
+end_z: 1.0
+
+add_speed: 0.05 #m
+
+circle_n: 1 #set to 0 means fly line mode
+rate: 10
+
+trajectory_mode: 1 #0:start on the original point    1: start on circle     2:line trajectory
+RC_Control: 0 # 0: fly trajectory    1:fly with rc
+
+
+
+
+
+# Extrinsics for Perception Aware MPC
+p_B_C_x:       0.0             # camera in body center [m]
+p_B_C_y:       0.0
+p_B_C_z:       0.0
+
+q_B_C_w:       -0.5  # 45° pitched down [ 0.6427876, 0, 0.7660444, 0 ]
+q_B_C_x:       0.5
+q_B_C_y:       -0.5  #0.707107
+q_B_C_z:       0.5
+# Print information such as timing to terminal
+print_info:       true
+
+
+

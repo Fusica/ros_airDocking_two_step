@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/jetson/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/jetson/catkin_ws/src/ros_astra_camera/include/**",
+        "/home/jetson/catkin_ws/src/realsense-ros/realsense2_camera/include/**",
+        "/home/jetson/catkin_ws/src/speech_command/include/**",
+        "/home/jetson/airdocking/src/transmitacr/include/**",
+        "/home/jetson/airdocking/src/velocity_control/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
